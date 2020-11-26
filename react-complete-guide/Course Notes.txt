@@ -6,3 +6,23 @@ cmd - create-react-app my-project
 cmd - create-react-app react-complete-guide --scripts-version 1.1.5
 cmd - cd <project folder>
 cmd - npm start
+
+__________________________________________________________
+Section 5: Styling React Components & Elements
+Radium: 
+  Allows us to use inlinse styles with sudo selectors and media queries.
+  To use, 
+  import Radium from 'radium'
+  export default Radium(componentName)    // Higher order component
+
+  cmd - npm install --save radium
+
+Stlyed Components:
+  styled-components.com
+
+  cmd - npm install --save styled-components
+
+
+__________________________________________________________
+Section 9: Reaching out to the Web (HTTP / Ajax)
+cmd - npm install axios --save
